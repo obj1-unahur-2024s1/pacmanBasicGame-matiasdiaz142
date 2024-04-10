@@ -17,7 +17,7 @@ program pacman {
 	
 
 	// rivales
-	const rivales = [new Rival(numero = 1), new Rival(numero = 2)]
+	const rivales = [new Rival(numero = 1), new Rival(numero = 2), new Rival(numero = 3), new Rival(numero = 4), new Rival(numero = 5)]
 	
 	rivales.forEach { rival => 
 		game.addVisual(rival)
