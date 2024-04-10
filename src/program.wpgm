@@ -13,6 +13,8 @@ program pacman {
 	// personaje principal
 	game.addVisualCharacter(pacman)
 	
+	game.title("Pacman!")
+	
 	// que arranque el juego!
 	game.start()
 	
